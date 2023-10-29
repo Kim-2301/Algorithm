@@ -22,6 +22,6 @@ int main(void){
         cin >> arr[i];
     }
 
-    returnfunc2(arr,N);
+    return func2(arr,N);
 
 }
