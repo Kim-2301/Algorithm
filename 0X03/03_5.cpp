@@ -7,13 +7,14 @@ int main(){
 
     int n,x,sum=0;
     cin >> n;
-    int arr[n];
+    int arr[100001]={0};
     for(int i=0;i<n;i++){
         cin >> arr[i];
     }
     cin >> x;
 
-    int check[1000001]={0};
+    int check[2000001]={0};
+
     for(int i=0;i<n;i++){
         if(check[x-arr[i]]==1){
             sum++;
