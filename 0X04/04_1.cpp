@@ -15,7 +15,7 @@ int main(){
     }
     list<char>::iterator cursor = fin.end();
 
-    int M=0;
+    int M;
     char a;
     cin >> M;
     while(M--){
@@ -32,8 +32,8 @@ int main(){
         }
         else if(a=='B'){
             if(cursor!= fin.begin()){
-                cursor=fin.erase(cursor);
                 cursor--;
+                cursor=fin.erase(cursor);
             }
         }
         else if(a=='P'){
