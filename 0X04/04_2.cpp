@@ -42,6 +42,6 @@ int main(){
         for(auto a:L){
             cout << a;
         }
-        cout << 'n'; 
+        cout << '\n'; 
     }
 }
